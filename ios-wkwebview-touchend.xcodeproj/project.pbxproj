@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E2F5561AFB9D3D008EABAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2F5551AFB9D3D008EABAE /* main.m */; };
+		44E2F5591AFB9D3D008EABAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2F5581AFB9D3D008EABAE /* AppDelegate.m */; };
+		44E2F55C1AFB9D3D008EABAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2F55B1AFB9D3D008EABAE /* ViewController.m */; };
+		44E2F55F1AFB9D3D008EABAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E2F55D1AFB9D3D008EABAE /* Main.storyboard */; };
+		44E2F5611AFB9D3D008EABAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E2F5601AFB9D3D008EABAE /* Images.xcassets */; };
+		44E2F5641AFB9D3D008EABAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2F5621AFB9D3D008EABAE /* LaunchScreen.xib */; };
+		44E2F5701AFB9D3D008EABAE /* ios_wkwebview_touchendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2F56F1AFB9D3D008EABAE /* ios_wkwebview_touchendTests.m */; };
+		44E2F57A1AFB9DA1008EABAE /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 44E2F5791AFB9DA1008EABAE /* editor.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E2F56A1AFB9D3D008EABAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E2F5481AFB9D3D008EABAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E2F54F1AFB9D3D008EABAE;
+			remoteInfo = "ios-wkwebview-touchend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E2F5501AFB9D3D008EABAE /* ios-wkwebview-touchend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-wkwebview-touchend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E2F5541AFB9D3D008EABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E2F5551AFB9D3D008EABAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E2F5571AFB9D3D008EABAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44E2F5581AFB9D3D008EABAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44E2F55A1AFB9D3D008EABAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44E2F55B1AFB9D3D008EABAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44E2F55E1AFB9D3D008EABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44E2F5601AFB9D3D008EABAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44E2F5631AFB9D3D008EABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		44E2F5691AFB9D3D008EABAE /* ios-wkwebview-touchendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-wkwebview-touchendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E2F56E1AFB9D3D008EABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E2F56F1AFB9D3D008EABAE /* ios_wkwebview_touchendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_wkwebview_touchendTests.m; sourceTree = "<group>"; };
+		44E2F5791AFB9DA1008EABAE /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E2F54D1AFB9D3D008EABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E2F5661AFB9D3D008EABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E2F5471AFB9D3D008EABAE = {
+			isa = PBXGroup;
+			children = (
+				44E2F5521AFB9D3D008EABAE /* ios-wkwebview-touchend */,
+				44E2F56C1AFB9D3D008EABAE /* ios-wkwebview-touchendTests */,
+				44E2F5511AFB9D3D008EABAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E2F5511AFB9D3D008EABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E2F5501AFB9D3D008EABAE /* ios-wkwebview-touchend.app */,
+				44E2F5691AFB9D3D008EABAE /* ios-wkwebview-touchendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E2F5521AFB9D3D008EABAE /* ios-wkwebview-touchend */ = {
+			isa = PBXGroup;
+			children = (
+				44E2F5571AFB9D3D008EABAE /* AppDelegate.h */,
+				44E2F5581AFB9D3D008EABAE /* AppDelegate.m */,
+				44E2F55A1AFB9D3D008EABAE /* ViewController.h */,
+				44E2F55B1AFB9D3D008EABAE /* ViewController.m */,
+				44E2F55D1AFB9D3D008EABAE /* Main.storyboard */,
+				44E2F5601AFB9D3D008EABAE /* Images.xcassets */,
+				44E2F5621AFB9D3D008EABAE /* LaunchScreen.xib */,
+				44E2F5531AFB9D3D008EABAE /* Supporting Files */,
+			);
+			path = "ios-wkwebview-touchend";
+			sourceTree = "<group>";
+		};
+		44E2F5531AFB9D3D008EABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E2F5541AFB9D3D008EABAE /* Info.plist */,
+				44E2F5551AFB9D3D008EABAE /* main.m */,
+				44E2F5791AFB9DA1008EABAE /* editor.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E2F56C1AFB9D3D008EABAE /* ios-wkwebview-touchendTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E2F56F1AFB9D3D008EABAE /* ios_wkwebview_touchendTests.m */,
+				44E2F56D1AFB9D3D008EABAE /* Supporting Files */,
+			);
+			path = "ios-wkwebview-touchendTests";
+			sourceTree = "<group>";
+		};
+		44E2F56D1AFB9D3D008EABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E2F56E1AFB9D3D008EABAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E2F54F1AFB9D3D008EABAE /* ios-wkwebview-touchend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E2F5731AFB9D3D008EABAE /* Build configuration list for PBXNativeTarget "ios-wkwebview-touchend" */;
+			buildPhases = (
+				44E2F54C1AFB9D3D008EABAE /* Sources */,
+				44E2F54D1AFB9D3D008EABAE /* Frameworks */,
+				44E2F54E1AFB9D3D008EABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-wkwebview-touchend";
+			productName = "ios-wkwebview-touchend";
+			productReference = 44E2F5501AFB9D3D008EABAE /* ios-wkwebview-touchend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E2F5681AFB9D3D008EABAE /* ios-wkwebview-touchendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E2F5761AFB9D3D008EABAE /* Build configuration list for PBXNativeTarget "ios-wkwebview-touchendTests" */;
+			buildPhases = (
+				44E2F5651AFB9D3D008EABAE /* Sources */,
+				44E2F5661AFB9D3D008EABAE /* Frameworks */,
+				44E2F5671AFB9D3D008EABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E2F56B1AFB9D3D008EABAE /* PBXTargetDependency */,
+			);
+			name = "ios-wkwebview-touchendTests";
+			productName = "ios-wkwebview-touchendTests";
+			productReference = 44E2F5691AFB9D3D008EABAE /* ios-wkwebview-touchendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E2F5481AFB9D3D008EABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Bipsync;
+				TargetAttributes = {
+					44E2F54F1AFB9D3D008EABAE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					44E2F5681AFB9D3D008EABAE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 44E2F54F1AFB9D3D008EABAE;
+					};
+				};
+			};
+			buildConfigurationList = 44E2F54B1AFB9D3D008EABAE /* Build configuration list for PBXProject "ios-wkwebview-touchend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E2F5471AFB9D3D008EABAE;
+			productRefGroup = 44E2F5511AFB9D3D008EABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E2F54F1AFB9D3D008EABAE /* ios-wkwebview-touchend */,
+				44E2F5681AFB9D3D008EABAE /* ios-wkwebview-touchendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E2F54E1AFB9D3D008EABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E2F55F1AFB9D3D008EABAE /* Main.storyboard in Resources */,
+				44E2F57A1AFB9DA1008EABAE /* editor.html in Resources */,
+				44E2F5641AFB9D3D008EABAE /* LaunchScreen.xib in Resources */,
+				44E2F5611AFB9D3D008EABAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E2F5671AFB9D3D008EABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E2F54C1AFB9D3D008EABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E2F55C1AFB9D3D008EABAE /* ViewController.m in Sources */,
+				44E2F5591AFB9D3D008EABAE /* AppDelegate.m in Sources */,
+				44E2F5561AFB9D3D008EABAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E2F5651AFB9D3D008EABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E2F5701AFB9D3D008EABAE /* ios_wkwebview_touchendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E2F56B1AFB9D3D008EABAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E2F54F1AFB9D3D008EABAE /* ios-wkwebview-touchend */;
+			targetProxy = 44E2F56A1AFB9D3D008EABAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E2F55D1AFB9D3D008EABAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E2F55E1AFB9D3D008EABAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44E2F5621AFB9D3D008EABAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E2F5631AFB9D3D008EABAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E2F5711AFB9D3D008EABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44E2F5721AFB9D3D008EABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E2F5741AFB9D3D008EABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-wkwebview-touchend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44E2F5751AFB9D3D008EABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-wkwebview-touchend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44E2F5771AFB9D3D008EABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios-wkwebview-touchendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-wkwebview-touchend.app/ios-wkwebview-touchend";
+			};
+			name = Debug;
+		};
+		44E2F5781AFB9D3D008EABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios-wkwebview-touchendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-wkwebview-touchend.app/ios-wkwebview-touchend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E2F54B1AFB9D3D008EABAE /* Build configuration list for PBXProject "ios-wkwebview-touchend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E2F5711AFB9D3D008EABAE /* Debug */,
+				44E2F5721AFB9D3D008EABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E2F5731AFB9D3D008EABAE /* Build configuration list for PBXNativeTarget "ios-wkwebview-touchend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E2F5741AFB9D3D008EABAE /* Debug */,
+				44E2F5751AFB9D3D008EABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44E2F5761AFB9D3D008EABAE /* Build configuration list for PBXNativeTarget "ios-wkwebview-touchendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E2F5771AFB9D3D008EABAE /* Debug */,
+				44E2F5781AFB9D3D008EABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E2F5481AFB9D3D008EABAE /* Project object */;
+}

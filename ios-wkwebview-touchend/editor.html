@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0" />
+        
+        <style type="text/css">
+            * {
+                outline: 0px solid transparent;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                -webkit-touch-callout: none;
+            }
+        html, body {
+            padding: 10px 0;
+            margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        }
+        html {
+            height: 100%;
+        }
+        
+        body {
+            line-height: 1.35;
+            padding: 10px;
+            min-height: 100%;
+        }
+        </style>
+        
+        
+    </head>
+    <body contenteditable="true">
+        <div>
+            Text in table cells is a fickle beast, especially when filled with long numbers. True text will typically allow for sane breaks even in a narrow column. However, not much can be done with numeric data or other data that cannot be arbitrarily broken when a column changes sizes.
+            
+            For example, consider the following number:
+        </div>
+        <div><br></div>
+        <div>
+            1,234,567,890.34
+            
+            How would you break such a number in a column that supports only a four-character width? It's a tough decision, but probably one you would prefer to make yourself rather than leave it up to HTML and CSS.
+            
+            Tip:  When deciding where to break numbers, keep in mind that the best places to break are around punctuation (commas, periods) or currency symbols. Doing so will preserve as much readability of your numbers as possible.
+        </div>
+        <div><br></div>
+        <div>
+            You have two essential tools to use when controlling line breaks, the nonbreaking space and the zero-width space.
+            
+            Non Breaking Space
+            
+            The nonbreaking space is best known by its HTML entity code, &nbsp;. This character looks and acts like a space, except in that it doesn't allow the browser to break the line at this space. Although it is commonly used to space-fill elements, the nonbreaking space does have its textual uses. For example, you typically would not want the following line broken at the embedded spaces:
+        </div>
+        <div><br></div>
+        <div>
+            Zero Width Space
+            
+            The zero-width space is somewhat opposite to the nonbreaking space — it is not visible but allows the browser to break at the character. The zero-width space can be inserted by using its HTML entity code, &#8203;
+            
+            Returning to our earlier example number, we can choose where we'd likeit to be broken if it must break (the original number is on the first line, the doctored number on the second):
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+                 window.webkit.messageHandlers['editor'].postMessage('loaded');
+             
+                 var onTouchEnd = function (event) {
+                     window.webkit.messageHandlers['editor'].postMessage("Touch ended");
+                 };
+             
+                 document.body.addEventListener('touchend', onTouchEnd);
+             })();
+        </script>
+    </body>
+</html>
